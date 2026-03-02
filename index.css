@@ -1,0 +1,49 @@
+body{
+    color:black;
+    background: linear-gradient(120deg, green, gold);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background: darkgray;
+    height: 8hv;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0px 5px 0px maroon;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn:active{
+    box-shadow: 0px 2px 0px maroon;
+    transform: translateY(3px);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+}
+
+.center{
+    text-align: center;
+}
+
+nav a:hover{
+    color: aqua;
+}
